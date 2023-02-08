@@ -17,15 +17,16 @@ img {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
+    padding-top:60px;
 
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.flex {
+.flex { 
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
 }
 
 .col {
@@ -38,6 +39,58 @@ img {
 
 
 /* HEADER */
+
+    
+header{
+    height: 60px;
+    background-color: orange;
+    position: fixed;
+    z-index: 100;
+    width: 100%; 
+    color: white; 
+}
+
+.headerboolando{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 60px;
+}
+
+.boolean-logo{
+    height: 35px;
+  
+}
+
+
+
+.genders{
+    color: white;
+    width:15%;
+    padding:2px;
+
+}
+
+.symbols{
+    width:15%;
+}
+
+
+
+header li{  
+    display: inline-block;
+}
+
+.main.logo{
+    size: 50px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -54,7 +107,29 @@ img {
     top: 5px;
     background-color: white;
     padding:5px;
+    z-index: 10;
 }
+
+
+.main-image{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.second-image{
+    position: relative; 
+    top: 0;  
+    left: 0; 
+
+}
+.product:hover .main-image{
+    display: none;
+    
+}
+
+
+
+
 
 .discounted-price{
     color:red;
