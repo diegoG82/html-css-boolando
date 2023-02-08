@@ -7,5 +7,90 @@
 
 img {
     max-width: 100%;
+
 }
+
+
+/* LAYOUT */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col {
+    width: calc(100% / 3 - (40px / 3));
+    min-height: 600px;
+}
+
+
+
+
+
+/* HEADER */
+
+
+
+
+
+/* MAIN */
+.product{
+    position: relative;
+}
+
+.heart{
+    position:absolute;
+    right: 0;
+    top: 5px;
+    background-color: white;
+    padding:5px;
+}
+
+.discounted-price{
+    color:red;
+}
+.price{
+    text-decoration: line-through;
+}
+
+.discount{
+    background-color: red;
+    color:white;
+    border:1px solid black;
+    padding: 2px;
+}
+
+.sost{
+    background-color: green;
+    color:white;
+    border: 1px solid black;
+    padding:2px;
+}
+
+.discount-box{
+position: absolute;
+bottom: 100px;
+}
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
 
