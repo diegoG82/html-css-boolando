@@ -120,6 +120,10 @@ header li{
     z-index: 10;
 }
 
+.heart :hover {
+    color: red;
+}
+
 
 .main-image{
     position:absolute;
